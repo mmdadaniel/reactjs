@@ -12,6 +12,9 @@ import Second from './components/Second';
 import WithParameters from './components/WithParameters';
 import WithChildren from './components/WithChildren';
 import Card from './components/layout/Card';
+import Repeater from './components/Repeater';
+import Conditional from './components/Conditional';
+import ConditionalIf from './components/ConditionalIf';
 
 export default props =>
     <div className="app">
@@ -39,5 +42,14 @@ export default props =>
                     <li>Dana</li>
                 </ul>
             </WithChildren>
+        </Card>
+        <Card title="#5 Repetidores">
+            <Repeater />
+        </Card>
+        <Card title="#6 Condicionais ternárias">
+            <Conditional number={10} />
+        </Card>
+        <Card title="#7 Condicionais IF">
+            <ConditionalIf number={7} />
         </Card>
     </div>

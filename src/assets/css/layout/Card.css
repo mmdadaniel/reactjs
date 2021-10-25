@@ -2,12 +2,19 @@
     display: flex;
     flex-direction: column;
     flex: 1;
-    border: 1px solid #000;
+    border: 10px solid #000;
     border-radius: 10px;
     overflow: hidden;
     margin: 20px;
     background-color: #FFF;
     min-width: 300px;
+}
+
+.card .card-header {
+    background-color: #000;
+    color: #FFF;
+    padding: 15px 0px;
+    font-size: 2vw;
 }
 
 .card .content {
@@ -16,8 +23,13 @@
     padding: 15px 0px;
 }
 
+.card .content ul li {
+    list-style: none;
+    text-align: left;
+}
+
 .card .footer {
     background-color: #000;
     color: #FFF;
-    padding: 5px 0px;
+    padding: 10px 0px;
 }
