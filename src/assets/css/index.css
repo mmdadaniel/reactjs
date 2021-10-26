@@ -1,11 +1,16 @@
 body {
-    background-color: #444;
-    color: #fff;
+    font-family: 'Roboto';
+    background-color: #F2F3F4 ;
     text-align: center;
-    font-weight: 300px;
     font-size: 2rem;
 }
 
-h1, h2 {
+h1, h2, h3, h4, h5, h6, h7, h8 {
     font-weight: 300px;
+    color: #34495E;
 }
+
+p, a, span, strong {
+    color: #34495E;
+}
+

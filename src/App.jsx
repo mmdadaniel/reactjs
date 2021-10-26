@@ -19,13 +19,13 @@ import ConditionalIf from './components/ConditionalIf';
 export default props =>
     <div className="app">
         <Header />
-        <Card title="#1 componente">
+        <Card title="#1 componente" number={1}>
             <First />
         </Card>
-        <Card title="#2 componente">
+        <Card title="#2 componente" number={2}>
             <Second></Second>
         </Card>
-        <Card title="#3 componente (com parâmetros)">
+        <Card title="#3 componente (com parâmetros)" number={3}>
             <WithParameters 
                 title="Título aqui"
                 subtitle="Subtítulo aqui" />
@@ -33,7 +33,7 @@ export default props =>
             title="Segundo título aqui"
             subtitle="Segundo subtítulo aqui" />
         </Card>
-        <Card title="#4 componente (com filhos)">
+        <Card title="#4 componente (com filhos)" number={4}> 
             <WithChildren>
                 <ul>
                     <li>Ana</li>
@@ -43,13 +43,13 @@ export default props =>
                 </ul>
             </WithChildren>
         </Card>
-        <Card title="#5 Repetidores">
+        <Card title="#5 Repetidores" number={5}>
             <Repeater />
         </Card>
-        <Card title="#6 Condicionais ternárias">
+        <Card title="#6 Condicionais ternárias" number={6}>
             <Conditional number={10} />
         </Card>
-        <Card title="#7 Condicionais IF">
+        <Card title="#7 Condicionais IF" number={7}>
             <ConditionalIf number={7} />
         </Card>
     </div>
